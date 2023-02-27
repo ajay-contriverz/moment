@@ -1,14 +1,29 @@
 import moment from "moment/moment";
 function App() {
   const date = moment(new Date());
-  const dateUTC = moment.utc(new Date());
+  // const dateUTC = moment.utc(new Date());
   // console.log("Object", moment({ years:'2010', months:'3', date:'5', hours:'15', minutes:'10', seconds:'3', milliseconds:'123'}))
   // console.log("Unix Timestamp (milliseconds)", moment(1318781876406));
   // console.log(moment.parseZone("2013 01 01 -13:00", 'YYYY MM DD ZZ', true).utcOffset()) // -780  ("-13:00" in total minutes)
-  var m = moment("2011-18-10T10:20:59");
-  console.log(m.isValid());
-  console.log(m.invalidAt());
-  m.invali
+  // var m = moment("2011-18-10T10:20:59");
+  // console.log(m.isValid());
+  // console.log(m.invalidAt());
+  // m.invali
+  // console.log(moment().date());
+  // console.log(moment().isoWeekday());
+  // console.log(moment().hours());
+  // console.log(moment().minute());
+  // console.log(moment().second());
+  // console.log(moment().millisecond());
+  // console.log(moment().dayOfYear());
+  // console.log(moment().weeks());
+  // console.log(moment('2013-04-01T00:00:00.000').subtract(1, 'ms').quarter());
+  // console.log(moment().weeksInYear());
+  // console.log(moment().get('year'));
+  // console.log(moment().set('year', 2013));
+  // var a = moment().subtract(1, 'day');
+  // var b = moment().add(1, 'day');
+  // console.log(moment.max(a, b))
   return (  
     <>
       <section className="py-5">
