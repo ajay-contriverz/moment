@@ -24,6 +24,29 @@ function App() {
   // var a = moment().subtract(1, 'day');
   // var b = moment().add(1, 'day');
   // console.log(moment.max(a, b))
+
+  // console.log(moment().add(10, "days").format())
+  // console.log(moment().subtract(2, "days").format())
+  // console.log(moment().startOf("year").format())
+  // console.log(moment().startOf("month").format())
+  // console.log(moment().startOf("week").format())
+  // console.log(moment().startOf("day").format())
+  // console.log(moment().startOf("hour").format())
+  // console.log(moment().endOf("year").format())
+  // console.log(moment().endOf("month").format())
+  // console.log(moment().endOf("week").format())
+  // console.log(moment().endOf("day").format())
+  // console.log(moment().endOf("hour").format())
+  // console.log(moment().local())
+  // console.log(moment().utcOffset())
+  // console.log(moment('Marbruary', 'MMMM').isValid())
+  // console.log(moment().zone(120))
+
+  // console.log(moment([1994, 4, 28]).fromNow(true))
+  // console.log(moment().from([2023, 2, 26]))
+  // console.log(moment([2022, 4, 28]).toNow(Boolean))
+  console.log(moment.locale())
+
   return (  
     <>
       <section className="py-5">
